@@ -22,3 +22,6 @@ console.log(myAdd(5, 5));
 
 const myEvilGetNbr = require("./8_myEvilGetNbr");
 console.log(myEvilGetNbr("-6"));
+
+const myAbs = require("./9_myAbs");
+console.log(myAbs(-9));

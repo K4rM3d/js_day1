@@ -14,14 +14,17 @@ console.log(getNbr(0));
 const myAge = require("./5_myAge.js");
 console.log(myAge(18));
 
-const myEvilAge = require("./6_myEvilAge");
+const myEvilAge = require("./6_myEvilAge.js");
 console.log(myEvilAge("15"));
 
-const myAdd = require("./7_myAdd");
+const myAdd = require("./7_myAdd.js");
 console.log(myAdd(5, 5));
 
-const myEvilGetNbr = require("./8_myEvilGetNbr");
+const myEvilGetNbr = require("./8_myEvilGetNbr.js");
 console.log(myEvilGetNbr("-6"));
 
-const myAbs = require("./9_myAbs");
+const myAbs = require("./9_myAbs.js");
 console.log(myAbs(-9));
+
+const myEvilStr = require("./10_myEvilStr.js");
+console.log(myEvilStr("karim medar"));

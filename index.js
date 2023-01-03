@@ -39,3 +39,20 @@ console.log(myStrnCpy("hello world", 25));
 
 const myEvilPow = require("./13_myEvilPow");
 console.log(myEvilPow(4, 3));
+
+const myCountItems = require("./15_myCountItems");
+console.log(myCountItems(["test", "rat", "ok"]));
+
+const myPushItem = require("./16_myPushItem");
+console.log(myPushItem([14, 15, 16, 15], 17));
+
+const myStrToWordArray = require("./17_myStrToWordArray");
+console.log(
+  myStrToWordArray("Moi j'adore l'eau, dans 20 ou 30 ans y en aura plus.")
+);
+
+const mySortWordArray = require("./18_mySortWordArray");
+console.log(mySortWordArray("test or rond karim"));
+
+const myRemoveTail = require("./19_myRemoveTail");
+console.log(myRemoveTail([15, 45]));

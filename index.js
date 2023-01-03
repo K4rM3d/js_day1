@@ -35,4 +35,4 @@ const myPow = require("./12_myPow.js");
 console.log(myPow(5, 6));
 
 const myStrnCpy = require("./14_myStrnCpy.js");
-console.log(myStrnCpy("renvoi les n premiers caractères de la chaine", 7));
+console.log(myStrnCpy("hello world", 25));

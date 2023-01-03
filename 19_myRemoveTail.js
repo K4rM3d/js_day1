@@ -1,8 +1,8 @@
 function myRemoveTail(table) {
-  table.pop();
-  if (table.length > 0) return table;
+  if (table.length === 1) return [""];
 
-  return [];
+  table.pop();
+  return table;
 }
 
 module.exports = myRemoveTail;

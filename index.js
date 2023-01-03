@@ -1,8 +1,7 @@
 const example = require("./1_Example.js");
-
 console.log(example());
 
-const inputsArgs = require("./2_InputsArgs.js");
+const inputsArgs = require("./2_InputArgs.js");
 console.log(inputsArgs(42, 84));
 
 const name = require("./3_myName.js");
@@ -28,3 +27,12 @@ console.log(myAbs(-9));
 
 const myEvilStr = require("./10_myEvilStr.js");
 console.log(myEvilStr("karim medar"));
+
+const myStrCat = require("./11_myStrCat.js");
+console.log(myStrCat("karim", "medar"));
+
+const myPow = require("./12_myPow.js");
+console.log(myPow(5, 6));
+
+const myStrnCpy = require("./14_myStrnCpy.js");
+console.log(myStrnCpy("renvoi les n premiers caractères de la chaine", 7));

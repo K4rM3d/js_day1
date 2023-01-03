@@ -1,6 +1,5 @@
 function myAdd(nbr1, nbr2) {
-  let somme = nbr1 + nbr2;
-  return somme;
+  return nbr1 + nbr2;
 }
 
 module.exports = myAdd;

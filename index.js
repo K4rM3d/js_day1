@@ -36,3 +36,6 @@ console.log(myPow(5, 6));
 
 const myStrnCpy = require("./14_myStrnCpy.js");
 console.log(myStrnCpy("hello world", 25));
+
+const myEvilPow = require("./13_myEvilPow");
+console.log(myEvilPow(4, 3));

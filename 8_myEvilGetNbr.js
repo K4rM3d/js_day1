@@ -1,5 +1,6 @@
 function myEvilGetNbr(nbr) {
   nbr = parseInt(nbr);
+
   let value;
   if (nbr > 0) {
     value = "+";

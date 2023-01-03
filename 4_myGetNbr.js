@@ -1,14 +1,15 @@
 function getNbr(nbr) {
-  let value;
   if (nbr > 0) {
-    value = "+";
+    return "+";
   } else if (nbr < 0) {
-    value = "-";
+    return "-";
   } else {
-    value = "0";
+    return "0";
   }
-
-  return value;
 }
 
 module.exports = getNbr;
+
+// ternaire
+// return n === 0 ? "0" :
+//        n > 0 ? "+" : "-"

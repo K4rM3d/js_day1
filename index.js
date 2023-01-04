@@ -68,4 +68,4 @@ const myRemoveDuplicate = require("./23_myRemoveDuplicate");
 console.log(myRemoveDuplicate(["AZ", "AZ", "Z"]));
 
 const myConcat = require("./24_myConcat");
-console.log(myConcat(["AZ", "AZ"], ["EZ", "EZ"]));
+console.log(myConcat([], [12, 45]));

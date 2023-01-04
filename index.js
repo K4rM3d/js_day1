@@ -63,3 +63,6 @@ console.log(myAgeFilter([1, 15, 19]));
 
 const mySum = require("./22_mySum");
 console.log(mySum([]));
+
+const myRemoveDuplicate = require("./23_myRemoveDuplicate");
+console.log(myRemoveDuplicate(["AZ"]));

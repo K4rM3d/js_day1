@@ -56,5 +56,10 @@ const myRemoveTail = require("./19_myRemoveTail");
 console.log(myRemoveTail([15, 16]));
 
 const myRemoveN = require("./20_myRemoveN");
-
 console.log(myRemoveN([4, 5, 6, 7, 8], 12));
+
+const myAgeFilter = require("./21_myAgeFilter");
+console.log(myAgeFilter([1, 15, 19]));
+
+const mySum = require("./22_mySum");
+console.log(mySum([3, 4]));

@@ -65,4 +65,7 @@ const mySum = require("./22_mySum");
 console.log(mySum([]));
 
 const myRemoveDuplicate = require("./23_myRemoveDuplicate");
-console.log(myRemoveDuplicate(["AZ"]));
+console.log(myRemoveDuplicate(["AZ", "AZ", "Z"]));
+
+const myConcat = require("./24_myConcat");
+console.log(myConcat(["AZ", "AZ"], ["EZ", "EZ"]));

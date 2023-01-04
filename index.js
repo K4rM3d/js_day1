@@ -62,4 +62,4 @@ const myAgeFilter = require("./21_myAgeFilter");
 console.log(myAgeFilter([1, 15, 19]));
 
 const mySum = require("./22_mySum");
-console.log(mySum([3, 4]));
+console.log(mySum([]));

@@ -53,4 +53,8 @@ const mySortWordArray = require("./18_mySortWordArray");
 console.log(mySortWordArray(""));
 
 const myRemoveTail = require("./19_myRemoveTail");
-console.log(myRemoveTail([]));
+console.log(myRemoveTail([15, 16]));
+
+const myRemoveN = require("./20_myRemoveN");
+
+console.log(myRemoveN([4, 5, 6, 7, 8], 12));

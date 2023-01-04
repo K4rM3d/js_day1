@@ -1,6 +1,7 @@
 function mySortWordArray(string) {
-  string = string.split(" ");
+  if (string.length === 0) return [];
 
+  string = string.split(" ");
   return string.sort();
 }
 

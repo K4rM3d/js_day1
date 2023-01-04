@@ -47,12 +47,10 @@ const myPushItem = require("./16_myPushItem");
 console.log(myPushItem([14, 15, 16, 15], 17));
 
 const myStrToWordArray = require("./17_myStrToWordArray");
-console.log(
-  myStrToWordArray("Moi j'adore l'eau, dans 20 ou 30 ans y en aura plus.")
-);
+console.log(myStrToWordArray(""));
 
 const mySortWordArray = require("./18_mySortWordArray");
-console.log(mySortWordArray("test or rond karim"));
+console.log(mySortWordArray(""));
 
 const myRemoveTail = require("./19_myRemoveTail");
-console.log(myRemoveTail([15, 45]));
+console.log(myRemoveTail([]));

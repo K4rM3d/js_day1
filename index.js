@@ -87,5 +87,11 @@ console.log(
 );
 
 const User = require("./28_myUserClass");
-let me = new User("Guilian", "Ganster", 22);
+let mee = new User("Guilian", "Ganster", 22);
+console.log(mee.presentation()); //"Je m'apelle Guilian Ganster, j'ai 22 ans"
+
+const Admin = require("./29_myAdminClass");
+
+let me = new Admin("Guilian", "Ganster", 22);
 console.log(me.presentation()); //"Je m'apelle Guilian Ganster, j'ai 22 ans"
+console.log(me.role); //"administrateur"

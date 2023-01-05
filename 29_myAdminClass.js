@@ -6,7 +6,7 @@ class Admin extends User {
     this.surname = prenom;
     this.name = nom;
     this.age = age;
-    this.role = "Administrateur";
+    this.role = "administrateur";
   }
 }
 

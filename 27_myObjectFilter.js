@@ -4,8 +4,9 @@ function myObjectFilter(tableObjet) {
   let tab = [];
   for (i = 0; i < tableObjet.length; i++) {
     let newtable = [];
-    newtable.push(tableObjet[i].name);
     newtable.push(tableObjet[i].surname);
+    newtable.push(tableObjet[i].name);
+
     tab.push(newtable.join(" "));
   }
 

@@ -69,3 +69,6 @@ console.log(myRemoveDuplicate(["AZ", "AZ", "Z"]));
 
 const myConcat = require("./24_myConcat");
 console.log(myConcat([], [12, 45]));
+
+const myCreateObject = require("./25_myCreateObject");
+console.log(myCreateObject("karim", "medar", 30));

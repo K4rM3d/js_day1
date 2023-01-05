@@ -75,3 +75,13 @@ console.log(myCreateObject("karim", "medar", 30));
 
 const myUserDescription = require("./26_myUserDescription");
 console.log(myUserDescription({ surname: "a", name: "A", age: 23 }));
+
+const myObjectFilter = require("./27_myObjectFilter");
+console.log(
+  myObjectFilter([
+    { name: "A", surname: "a", age: 25 },
+    { name: "B", surname: "b", age: 30 },
+    { name: "C", surname: "c", age: 5 },
+    { name: "D", surname: "d", age: 4 },
+  ])
+);

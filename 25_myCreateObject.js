@@ -1,7 +1,7 @@
 function myCreateObject(prenom, nom, age) {
   let object = {
-    prenom: prenom,
-    nom: nom,
+    surname: prenom,
+    name: nom,
     age: age,
   };
   return object;

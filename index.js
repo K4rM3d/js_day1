@@ -81,7 +81,11 @@ console.log(
   myObjectFilter([
     { name: "A", surname: "a", age: 25 },
     { name: "B", surname: "b", age: 30 },
-    { name: "C", surname: "c", age: 5 },
-    { name: "D", surname: "d", age: 4 },
+    { name: "C", surname: "c", age: 17 },
+    { name: "D", surname: "d", age: 18 },
   ])
 );
+
+const User = require("./28_myUserClass");
+let me = new User("Guilian", "Ganster", 22);
+console.log(me.presentation()); //"Je m'apelle Guilian Ganster, j'ai 22 ans"

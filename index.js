@@ -72,3 +72,6 @@ console.log(myConcat([], [12, 45]));
 
 const myCreateObject = require("./25_myCreateObject");
 console.log(myCreateObject("karim", "medar", 30));
+
+const myUserDescription = require("./26_myUserDescription");
+console.log(myUserDescription({ surname: "a", name: "A", age: 23 }));

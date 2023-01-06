@@ -95,3 +95,14 @@ const Admin = require("./29_myAdminClass");
 let me = new Admin("Guilian", "Ganster", 22);
 console.log(me.presentation()); //"Je m'apelle Guilian Ganster, j'ai 22 ans"
 console.log(me.role); //"administrateur"
+
+const myObjectValues = require("./30_myObjectValues");
+console.log(
+  myObjectValues({
+    name: "Ganster",
+    surname: "Guilian",
+    age: 24,
+    presentation: () => {},
+  })
+);
+// "name: Ganster, surname: Guilian, age: 24"

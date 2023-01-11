@@ -1,11 +1,20 @@
 function myObjectValues(objet) {
-  let table = [];
-  for (const [key, value] of Object.entries(objet)) {
-    table.push(`${key}: ${value}`);
-  }
-  table.pop();
+  objet = Object.entries(objet)
+    .filter(([_, value]) => ["string", "number"].includes(typeof value))
+    .map(([key, value]) => `${key}: ${value}`)
+    .join(", ");
 
-  return table.join(", ");
+  return objet;
 }
 
 module.exports = myObjectValues;
+
+console.log(
+  myObjectValues({
+    name: "Ganster",
+    surname: "Guilian",
+    age: 24,
+    presentation: () => {},
+    lqlq: () => {},
+  })
+);
